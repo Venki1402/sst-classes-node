@@ -28,3 +28,19 @@ const fs = require('fs');
 //         return;
 //     }
 // });
+
+// // make directory
+// fs.mkdir('newFolder', (err) => {
+//     if (err) {
+//         console.log(err);
+//     }
+//     console.log('Folder created');
+// });
+
+// // remove directory
+// fs.rmdir('newFolder', (err) => {    
+//     if (err) {
+//         console.log(err);
+//     }
+//     console.log('Folder deleted');
+// });
