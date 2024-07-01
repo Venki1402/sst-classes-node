@@ -44,3 +44,12 @@ const fs = require('fs');
 //     }
 //     console.log('Folder deleted');
 // });
+
+// // rename file
+// fs.rename('file.txt', 'file1.txt', (err) => {
+//     if (err) {
+//         console.log(err);
+//     } else {
+//         console.log('File renamed successfully');
+//     }
+// });
