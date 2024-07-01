@@ -53,3 +53,12 @@ const fs = require('fs');
 //         console.log('File renamed successfully');
 //     }
 // });
+
+// move file to a new directory
+fs.rename('file.txt', 'newFolder/file1.txt', (err) => {
+    if (err) {
+        console.log(err);
+    } else {
+        console.log('File moved successfully');
+    }
+});
